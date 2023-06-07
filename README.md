@@ -15,3 +15,10 @@ Para probar que el permiso fue entregado correctamente, debemos ejecutar:
 ```bash
 git status --porcelain=2
 ```
+
+Estos cambios no son comiteados por github desktop, por lo que deben ser comiteados usando git bash:
+
+```bash
+git commit -m "add +x permision"
+git push origin main
+```
